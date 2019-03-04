@@ -1,0 +1,40 @@
+/*
+  theme name: WordStrap
+  author: John T. Kline
+  author uri: http://wpbootstrap.x10host.com
+  description: Simple bootstrap theme for wordpress.
+  version: 9.9.9
+ */
+
+article.post {
+  border-bottom: #ccc solid 1px;
+  padding-bottom: 20px;
+  margin-bottom: 30px;
+}
+article.post:last-child {
+  border-bottom: none;
+}
+article.post img {
+  width: 100%;
+  height: auto;
+  margin-top: 30px;
+}
+article.post .meta {
+  background: #f4f4f4;
+  padding: 8px 12px;
+  color: #333;
+}
+@media (min-width: 768px) {
+  .navbar-right {
+    float: right !important;
+    margin-right: -30px;
+  }
+}
+.comment-list {
+  list-style: none;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+.comment-item {
+  overflow: auto;
+}
